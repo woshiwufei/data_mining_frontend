@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --el-card-padding: 15px
+}
+
+@media (max-width: 480px){
+  *{
+    --el-card-padding: 8px
+  }
+}
+
+body{
+  background-image: repeating-linear-gradient(270deg,#3498db,#8e44ad);
+  height: 100%;
+  position: relative;
+  scroll-behavior: unset;
+  border: none;
+  /*overflow: hidden;*/
+}
+
+.el-tabs__nav-scroll{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.el-tabs__header .is-top{
+  margin: 0
+}
+
